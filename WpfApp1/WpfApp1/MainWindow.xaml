@@ -7,16 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="Przycisk1" Content="Wykonaj" HorizontalAlignment="Left" Margin="150,125,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.086,0.278" Click="Przycisk1_Click"/>
-        <Button x:Name="Przycisk2" Content="Wykonaj" HorizontalAlignment="Left" Margin="150,155,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.086,0.278" Click="Przycisk1_Click"/>
-        <Button x:Name="Przycisk3" Content="Wykonaj" HorizontalAlignment="Left" Margin="150,185,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.086,0.278" Click="Przycisk1_Click"/>
-        <Button x:Name="Przycisk4" Content="Wykonaj" HorizontalAlignment="Left" Margin="150,215,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.086,0.278" Click="Przycisk1_Click"/>
-        <Button x:Name="Przycisk5" Content="Wykonaj" HorizontalAlignment="Left" Margin="150,245,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.086,0.278" Click="Przycisk1_Click"/>
-        <Label x:Name="Etykieta1" Content="Potega" HorizontalAlignment="Left" Margin="30,120,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Etykieta2" Content="ZapiszWtablicy" HorizontalAlignment="Left" Margin="30,150,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Etykieta3" Content="PoleKola" HorizontalAlignment="Left" Margin="30,180,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Etykieta4" Content="SumaCyfr" HorizontalAlignment="Left" Margin="30,210,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="Etykieta5" Content="ZamienElementy" HorizontalAlignment="Left" Margin="30,240,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="PotegaButton" Content="Wykonaj" HorizontalAlignment="Left" Margin="250,125,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.086,0.278" Click="PotegaButton_Click"/>
+        <Button x:Name="ZapiszWTablicyButton" Content="Wykonaj" HorizontalAlignment="Left" Margin="250,155,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.086,0.278" Click="ZapiszWTablicyButton_Click"/>
+        <Button x:Name="PoleKolaButton" Content="Wykonaj" HorizontalAlignment="Left" Margin="250,185,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.086,0.278" Click="PoleKolaButton_Click"/>
+        <Button x:Name="SumaCyfrButton" Content="Wykonaj" HorizontalAlignment="Left" Margin="250,215,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.086,0.278" Click="SumaCyfrButton_Click"/>
+        <Button x:Name="ZamienElementyButton" Content="Wykonaj" HorizontalAlignment="Left" Margin="250,245,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.086,0.278" Click="ZamienElementyButton_Click"/>
+        <Label x:Name="Potega" Content="Potega" HorizontalAlignment="Left" Margin="30,120,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ZapiszWtablicy" Content="ZapiszWtablicy" HorizontalAlignment="Left" Margin="30,150,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="PoleKola" Content="PoleKola" HorizontalAlignment="Left" Margin="30,180,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="SumaCyfr" Content="SumaCyfr" HorizontalAlignment="Left" Margin="30,210,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ZamienElementy" Content="ZamienElementy" HorizontalAlignment="Left" Margin="30,240,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="text_a" HorizontalAlignment="Left" Margin="30,30,0,0" TextWrapping="Wrap" Text="a" VerticalAlignment="Top" Width="30"/>
         <TextBox x:Name="text_b" HorizontalAlignment="Left" Margin="30,50,0,0" TextWrapping="Wrap" Text="b" VerticalAlignment="Top" Width="30"/>
         <TextBox x:Name="text_c" HorizontalAlignment="Left" Margin="30,70,0,0" TextWrapping="Wrap" Text="c" VerticalAlignment="Top" Width="30"/>
@@ -24,8 +24,9 @@
         <TextBox x:Name="mnoznik_text" HorizontalAlignment="Left" Margin="100,50,0,0" TextWrapping="Wrap" Text="mnoznik" VerticalAlignment="Top" Width="60"/>
         <TextBox x:Name="promien_text" HorizontalAlignment="Left" Margin="240,30,0,0" TextWrapping="Wrap" Text="Promien" VerticalAlignment="Top" Width="60"/>
         <TextBox x:Name="liczba_text" HorizontalAlignment="Left" Margin="340,30,0,0" TextWrapping="Wrap" Text="Liczba" VerticalAlignment="Top" Width="60"/>
-        <TextBox x:Name="i_text" HorizontalAlignment="Left" Margin="440,30,0,0" TextWrapping="Wrap" Text="i" VerticalAlignment="Top" Width="60"/>
-        <TextBox x:Name="j_text" HorizontalAlignment="Left" Margin="440,50,0,0" TextWrapping="Wrap" Text="j" VerticalAlignment="Top" Width="60"/>
-        <TextBox x:Name="warunek_text" HorizontalAlignment="Left" Margin="440,70,0,0" TextWrapping="Wrap" Text="warunek" VerticalAlignment="Top" Width="60"/>
+        <TextBox x:Name="tablica2_text" HorizontalAlignment="Left" Margin="440,30,0,0" TextWrapping="Wrap" Text="tablica (1,2,3,4)" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="i_text" HorizontalAlignment="Left" Margin="440,50,0,0" TextWrapping="Wrap" Text="i" VerticalAlignment="Top" Width="60"/>
+        <TextBox x:Name="j_text" HorizontalAlignment="Left" Margin="440,70,0,0" TextWrapping="Wrap" Text="j" VerticalAlignment="Top" Width="60"/>
+        <TextBox x:Name="warunek_text" HorizontalAlignment="Left" Margin="440,90,0,0" TextWrapping="Wrap" Text="warunek" VerticalAlignment="Top" Width="60"/>
     </Grid>
 </Window>

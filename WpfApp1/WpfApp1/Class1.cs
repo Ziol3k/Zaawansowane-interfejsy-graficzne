@@ -27,14 +27,21 @@ namespace ConsoleApp1
             return Math.Pow(a, b).ToString();
         }
 
-        public static int[] ZapiszWTablicy(int[] tablica, int mnoznik)
+        public static string ZapiszWTablicy(int[] tablica, int mnoznik)
         {
             int[] nowaTablica = new int[tablica.Length];
             for (int i = 0; i < tablica.Length; i++)
             {
                 nowaTablica[i] = tablica[i] * mnoznik;
             }
-            return nowaTablica;
+
+            string wynik = "";
+            for (int k = 0; k < nowaTablica.Length; k++)
+            {
+                wynik += nowaTablica[k] + (k < nowaTablica.Length - 1 ? ", " : "");
+            }
+
+            return wynik;
         }
 
         public static string PoleKola(double r)
