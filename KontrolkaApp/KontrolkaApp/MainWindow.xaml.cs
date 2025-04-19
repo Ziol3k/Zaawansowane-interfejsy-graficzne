@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Cwiczenia_3___snippets;
+namespace KontrolkaApp;
 
 /// <summary>
 /// Interaction logic for MainWindow.xaml
@@ -19,16 +19,5 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
-    }
-
-    private void Button_Click(object sender, RoutedEventArgs e)
-    {
-
-        static void Main(string[] args)
-        {
-            // wpisz kod 1
-        }
-        
-
     }
 }

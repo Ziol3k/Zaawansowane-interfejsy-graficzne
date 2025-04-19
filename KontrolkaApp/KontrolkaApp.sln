@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KontrolkaApp", "KontrolkaApp\KontrolkaApp.csproj", "{11A60FE9-FC31-42CA-B01C-C4DF1C2DE107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfControlLibrary", "WpfControlLibrary\WpfControlLibrary.csproj", "{BF05CD2A-3D99-4BA2-A30F-5500C6301E39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11A60FE9-FC31-42CA-B01C-C4DF1C2DE107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A60FE9-FC31-42CA-B01C-C4DF1C2DE107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A60FE9-FC31-42CA-B01C-C4DF1C2DE107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A60FE9-FC31-42CA-B01C-C4DF1C2DE107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF05CD2A-3D99-4BA2-A30F-5500C6301E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF05CD2A-3D99-4BA2-A30F-5500C6301E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF05CD2A-3D99-4BA2-A30F-5500C6301E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF05CD2A-3D99-4BA2-A30F-5500C6301E39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {040828F1-BDD4-4D68-BA0C-C1D58A677A7E}
+	EndGlobalSection
+EndGlobal
