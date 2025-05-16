@@ -1,0 +1,23 @@
+[Microsoft Zira Desktop]  
+Hello, Bob! How are you today?  
+
+[Microsoft David Desktop]  
+Hi Alice! I'm doing well, thank you. How about you?  
+
+[Microsoft Zira Desktop]  
+I'm great, thanks for asking. Are you ready for the meeting later?  
+
+[Microsoft David Desktop]  
+Yes, I have prepared all the documents.  
+
+[Microsoft Zira Desktop]  
+Perfect! Let's make sure everything goes smoothly.  
+
+[Microsoft David Desktop]  
+Absolutely, teamwork always helps.  
+
+[Microsoft Zira Desktop]  
+See you later, Bob!  
+
+[Microsoft David Desktop]  
+See you, Alice!  
