@@ -1,0 +1,157 @@
+﻿/* === GLOBAL RESET === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfdfd;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+/* === NAVBAR === */
+.navbar {
+    background-color: #4f46e5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 0.75rem 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    margin-right: auto;
+}
+    .brand:hover {
+        color: #e0e7ff;
+        opacity: 0.85;
+        cursor: pointer;
+    }
+
+
+.nav-links {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.nav-link {
+    color: #e0e7ff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+}
+
+    .nav-link:hover {
+        background-color: rgba(255, 255, 255, 0.15);
+        color: #ffffff;
+    }
+
+    .nav-link.active {
+        background-color: rgba(255, 255, 255, 0.25);
+        color: #ffffff;
+    }
+
+/* === MAIN CONTENT === */
+.main-content {
+    padding: 2rem 1rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* === HEADINGS === */
+h1 {
+    font-size: 2.3rem;
+    color: #1e3a8a;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #1e40af;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #374151;
+    margin: 1.2rem 0 0.4rem;
+}
+
+/* === INSTRUMENTS === */
+.instrument {
+    background-color: #eef2ff;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+    .instrument:hover {
+        transform: translateY(-4px);
+    }
+
+    .instrument img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        object-fit: cover;
+        max-height: 260px;
+        margin-bottom: 10px;
+        border: 2px solid #c7d2fe;
+    }
+
+/* === INFO BOX === */
+.info-section {
+    background-color: #fef9c3;
+    border-left: 4px solid #facc15;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    color: #4b5563;
+    margin-top: 2rem;
+}
+
+/* === BUTTON === */
+.btn-primary {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: #4f46e5;
+    }
+
+/* === ERROR UI === */
+.blazor-error-boundary {
+    background-color: #dc2626;
+    color: white;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-top: 2rem;
+}
+
+    .blazor-error-boundary::after {
+        content: "Wystąpił błąd podczas renderowania strony.";
+    }

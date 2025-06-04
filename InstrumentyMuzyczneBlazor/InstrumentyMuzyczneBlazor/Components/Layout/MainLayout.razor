@@ -1,0 +1,24 @@
+﻿@inherits LayoutComponentBase
+
+<div class="navbar">
+    <div class="navbar-content">
+        <a href="/" class="brand">🎶 InstrumentyMuzyczne</a>
+
+        <nav class="nav-links">
+            <NavLink href="/gitary" class="nav-link" activeClass="active">Gitary</NavLink>
+            <NavLink href="/inneinstrumenty" class="nav-link" activeClass="active">Inne instrumenty</NavLink>
+        </nav>
+    </div>
+</div>
+
+<main class="main-content">
+    <article class="content px-4">
+        @Body
+    </article>
+</main>
+
+<div id="blazor-error-ui">
+    Wystąpił błąd.
+    <a href="" class="reload">Odśwież</a>
+    <a class="dismiss">🗙</a>
+</div>
